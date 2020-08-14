@@ -59,17 +59,11 @@ i{
   color: black;
   
 }
-.experience-tabs > a:hover {
-  color: black;
-  
-}
-.experience-tabs .nav-item .nav-link .active{
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  color:white;
   background-color: black;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-  background-color: black;
-}
 hr.blue-border{
   border:3px solid blue;
 }

@@ -7,7 +7,7 @@ function SkillList(props) {
     <div className="bruh">
 
       {data.map((element) => (
-          <div>
+          <div key={element.skillname}>
           <div className="progress" style={{height:'20px'}}>
              
         <div
@@ -39,7 +39,7 @@ function Skills(props) {
         <div className="card-title" style={{paddingTop:"10px"}}>
           {/*<h1 style={{color:"white"}}>{props.title}</h1>*/}
         </div>
-        <div class="card-body">
+        <div className="card-body">
           <SkillList data={props}></SkillList>
         </div>
       </div>

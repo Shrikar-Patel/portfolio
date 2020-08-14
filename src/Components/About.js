@@ -3,7 +3,6 @@ import Skills from "./Skills";
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import Card from 'react-bootstrap/Card'
-import useState from 'react';
 
 class About extends React.Component {
 
@@ -32,7 +31,7 @@ class About extends React.Component {
     return (
       <div id="about">
         <div className="container">
-          <Card>
+          <Card border="dark">
          
             <Card.Header>
             
@@ -47,11 +46,11 @@ class About extends React.Component {
                 <h2>Education</h2>
               </div>
               <div className="card-body">
-              <img classname='img-thumbnail' width="50px"  src={require('../images/rutgers.png')} alt="Project"></img>
+              <img className='img-thumbnail' width="50px"  src={require('../images/rutgers.png')} alt="Project"></img>
               <hr className='black-border'></hr>
-              <text style={{fontStyle: "bold"}}><big><b>Rutgers University</b></big></text>
+              <span style={{fontStyle: "bold"}}><big><b>Rutgers University</b></big></span>
                 <br></br>
-                <text style={{fontStyle: "italic"}}>Class of 2021</text>
+                <span style={{fontStyle: "italic"}}>Class of 2021</span>
                 <br></br>
                 <b>Major</b>: B.S. Computer Science
                 <br></br>

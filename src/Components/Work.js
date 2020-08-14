@@ -1,18 +1,14 @@
 import React from "react";
 import {
-  Container,
-  Jumbotron,
-  Navbar,
-  Nav,
-  Image,
-  Card,Col
+
+  Card
 } from "react-bootstrap";
 
 
 function Work(props) {
-    const {title, dateRange, description, skills, image, position} = props;
+    const {title, dateRange, description, position} = props;
   return (
-    <Card>
+    <Card border='dark'>
       <Card.Header>
         <div id="work-header">
           <h3 style={{ textAlign: "left" }}>{title}</h3>
@@ -31,17 +27,17 @@ function Work(props) {
 
 
 
-        <Card.Text>
+        
             <ul className='list-group' style={{ textAlign: "left" }}>
                 {description.map((point) =>
-                <li className='list-group-item'>
+                <li key={point} className='list-group-item'>
                
                 {point}
                 
                 </li>
                 )}
             </ul>
-        </Card.Text>
+        
       </Card.Body>
     </Card>
   );

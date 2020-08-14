@@ -1,14 +1,10 @@
 import React from 'react';
-import {Component,useState} from "react";
+import {Component} from "react";
 import Project from './Project'
-import CardDeck from 'react-bootstrap/CardDeck'
-import CardGroup from 'react-bootstrap/CardGroup'
-import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Container'
-import { Card, CardColumns, Jumbotron } from "react-bootstrap";
+
+import { Card } from "react-bootstrap";
 import ItemsCarousel from 'react-items-carousel';
-import Hackathon from './Hackathon';
+
 
 
 
@@ -35,7 +31,7 @@ class Projects extends Component {
     return (
       <div id='projects'>
         <div className='container'>
-          <Card>
+          <Card border='dark'>
             <Card.Header>
 
           
@@ -56,9 +52,9 @@ class Projects extends Component {
           chevronWidth={chevronWidth}
         >
         {this.props.data.projects.map((exp) => (
-       <div>
+       <div key={exp.name}>
         < Project
-        
+
           name={exp.name}
           date={exp.date}
           description={exp.description}

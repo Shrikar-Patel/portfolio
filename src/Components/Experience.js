@@ -2,19 +2,12 @@ import React from "react";
 import Work from "./Work";
 import Hackathon from "./Hackathon";
 import {
-  Container,
-  Jumbotron,
-  Navbar,
-  Nav,
-  Image,
   Tabs,
   Tab,
-  Row,
-  Col,
-  Card, CardGroup,CardColumns, CardDeck,
-  Button
+CardColumns
+
 } from "react-bootstrap";
-import billtrust from "../images/billtrust.png";
+
 
 function GetWork(props) {
   const work = props.props;
@@ -23,6 +16,7 @@ function GetWork(props) {
     <div>
       {work.map((exp) => (
         <Work
+        key={exp.title}
           title={exp.title}
           dateRange={exp.dateRange}
           description={exp.description}
@@ -40,6 +34,7 @@ function GetHackathons(props) {
     <div>
       {hackathons.map((exp) => (
         <Hackathon
+        key={exp.date}
           name={exp.name}
           date={exp.date}
           description={exp.description}

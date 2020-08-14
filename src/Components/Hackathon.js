@@ -1,20 +1,15 @@
 import React from "react";
 import {
-  Container,
-  Jumbotron,
-  Navbar,
-  Nav,
-  Image,
-  Card, Button, Col, Row
+  Card
 } from "react-bootstrap";
 
 
 
 function Hackathon(props) {
-    const {name, date,skills, description, project, link, image, award} = props;
+    const {name, date,skills, description, link, image, award} = props;
   return (
       
-    <Card>
+    <Card border='dark'>
       <Card.Header>
         <div id="hack-header">
           <h3>{name}</h3>
@@ -22,22 +17,22 @@ function Hackathon(props) {
         </div>
       </Card.Header>
       <Card.Body>
-          <img classname='img-thumbnail' width="300px" variant="top" src={require('../images/'+ image)} alt="Project">
+          <img className='img-thumbnail' width="300px" variant="top" src={require('../images/'+ image)} alt="Project">
 
           </img>
 
         <Card.Text>
             <br></br>
-            <text style={{fontStyle:"italic", textDecoration:"underline"}}>{description}</text>
+            <span style={{fontStyle:"italic", textDecoration:"underline"}}>{description}</span>
             <br></br>
-            <text style={{fontStyle:"bold"}}><b>Technology Used:</b> {skills.join(", ")}</text>
+            <span style={{fontStyle:"bold"}}><b>Technology Used:</b> {skills.join(", ")}</span>
             <br></br>
-            <text><b>Award:</b> {award}</text>
+            <span><b>Award:</b> {award}</span>
     
         </Card.Text>
       </Card.Body>
         <Card.Footer>
-      <a class="btn btn btn-dark" href={link} role="button"> View Project </a>
+      <a className="btn btn btn-dark" href={link} role="button"> View Project </a>
       </Card.Footer>
     </Card>
    

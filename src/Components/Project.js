@@ -1,11 +1,7 @@
 import React from "react";
 import {
-  Container,
-  Jumbotron,
-  Navbar,
-  Nav,
-  Image,
-  Card, Button, Col, Row, Alert
+
+  Card
 } from "react-bootstrap";
 
 function checkAlert(link){
@@ -27,7 +23,7 @@ function Project(props) {
     const {name, date,skills, description, type,  project, link, image} = props;
   return (
       
-    <Card>
+    <Card border='dark'>
       <Card.Header>
         <div id="hack-header">
           <h3>{name}</h3>
@@ -35,22 +31,22 @@ function Project(props) {
         </div>
       </Card.Header>
       <Card.Body>
-          <img classname='img-thumbnail' width="300px" variant="top" src={require('../images/'+ image)} alt="Project">
+          <img className='img-thumbnail' width="300px" variant="top" src={require('../images/'+ image)} alt="Project">
 
           </img>
 
         <Card.Text>
             <br></br>
-            <text style={{fontStyle:"italic", textDecoration:"underline"}}>{description}</text>
+            <span style={{fontStyle:"italic", textDecoration:"underline"}}>{description}</span>
             <br></br>
-            <text style={{fontStyle:"bold"}}><b>Technology Used:</b> {skills.join(", ")}</text>
+            <span style={{fontStyle:"bold"}}><b>Technology Used:</b> {skills.join(", ")}</span>
             <br></br>
-                  <text><b>Type:</b> {type}</text>
+                  <span><b>Type:</b> {type}</span>
     
         </Card.Text>
       </Card.Body>
         <Card.Footer>
-      <a class="btn btn btn-dark" href={link} role="button" onClick={()=>checkAlert(link)}> View Project </a>
+      <a className="btn btn btn-dark" href={link} role="button" onClick={()=>checkAlert(link)}> View Project </a>
       <br></br>
 
       </Card.Footer>

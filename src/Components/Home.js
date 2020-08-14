@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Jumbotron, Navbar, Nav, Image, Row, Col, Button } from "react-bootstrap";
+import {  Row, Col } from "react-bootstrap";
 import Typewriter from 'typewriter-effect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
