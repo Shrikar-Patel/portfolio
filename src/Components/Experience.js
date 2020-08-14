@@ -1,22 +1,16 @@
 import React from "react";
 import Work from "./Work";
 import Hackathon from "./Hackathon";
-import {
-  Tabs,
-  Tab,
-CardColumns
-
-} from "react-bootstrap";
-
+import { Tabs, Tab, CardColumns } from "react-bootstrap";
 
 function GetWork(props) {
   const work = props.props;
-  console.log(work)
+  console.log(work);
   return (
     <div>
       {work.map((exp) => (
         <Work
-        key={exp.title}
+          key={exp.title}
           title={exp.title}
           dateRange={exp.dateRange}
           description={exp.description}
@@ -28,13 +22,13 @@ function GetWork(props) {
   );
 }
 function GetHackathons(props) {
-    console.log(props)
+  console.log(props);
   const hackathons = props.props;
   return (
     <div>
       {hackathons.map((exp) => (
         <Hackathon
-        key={exp.date}
+          key={exp.date}
           name={exp.name}
           date={exp.date}
           description={exp.description}
@@ -64,9 +58,9 @@ function ControlledTabs(props) {
         eventKey="hackathons"
         title="Hackathons"
       >
-          <CardColumns>
+        <CardColumns>
           <GetHackathons props={hackathons}></GetHackathons>
-          </CardColumns>
+        </CardColumns>
       </Tab>
 
       <Tab className=" border-dark mb-3" eventKey="Extra" title="Extra">
