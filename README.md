@@ -1,4 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Add Your Own File ##
+Under the src directory add your own data.js file which has same format
+
 
 ## Available Scripts
 
