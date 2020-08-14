@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+i{
+  color:white;
+}
+#home{
+  background-image: url('./images/binary_background.jpg');
+  min-height:100vh;
+  position:relative;
+}
+
+#about{
+  padding-top: 70px;
+  min-height:100vh;
+  position:relative;
+  background-color: white;
+
+}
+.experience-tabs > a {
+  color: black;
+  
+}
+.experience-tabs > a:hover {
+  color: black;
+  
+}
+.experience-tabs .nav-item .nav-link .active{
+  background-color: black;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: black;
+}
+hr.blue-border{
+  border:3px solid blue;
+}
+hr.black-border{
+  border:3px solid black;
+}
+#experience{
+  padding-top: 70px;
+}
+#projects{
+  padding-top: 70px;
+  position:relative;
+  background-color: white;
+  min-height:50vh;
+}
+
+#about .title{
+  background-color: white;
+}
+
+
+.typewriter {
+  color: white;
+  position: relative;
+  padding-top: 20%;
+
+}
+
+
+
