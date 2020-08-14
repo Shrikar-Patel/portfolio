@@ -20,7 +20,7 @@ function checkAlert(link){
 
 
 function Project(props) {
-    const {name, date,skills, description, type,  project, link, image} = props;
+    const {name, date,skills, description, type, link, image} = props;
   return (
       
     <Card border='dark'>
