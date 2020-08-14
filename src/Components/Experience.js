@@ -5,7 +5,6 @@ import { Tabs, Tab, CardColumns } from "react-bootstrap";
 
 function GetWork(props) {
   const work = props.props;
-  console.log(work);
   return (
     <div>
       {work.map((exp) => (
@@ -22,7 +21,6 @@ function GetWork(props) {
   );
 }
 function GetHackathons(props) {
-  console.log(props);
   const hackathons = props.props;
   return (
     <div>

@@ -2,8 +2,7 @@ import React from "react";
 import { Component } from "react";
 import Project from "./Project";
 
-import { Card } from "react-bootstrap";
-import ItemsCarousel from "react-items-carousel";
+import { Card, CardColumns } from "react-bootstrap";
 
 class Projects extends Component {
   constructor(props) {
@@ -18,31 +17,21 @@ class Projects extends Component {
   };
 
   render() {
-    const { activeItemIndex } = this.state;
-
-    const chevronWidth = 40;
     return (
       <div id="projects">
         <div className="container">
+  
           <Card border="dark">
             <Card.Header>
               <h1 className="display-4"> Projects</h1>
             </Card.Header>
             <Card.Body>
-              <div style={{ padding: `0 ${chevronWidth}px` }}>
-                <ItemsCarousel
-                  requestToChangeActive={this.setActiveItemIndex}
-                  activeItemIndex={activeItemIndex}
-                  numberOfCards={3}
-                  gutter={20}
-                  leftChevron={<button>{"<"}</button>}
-                  rightChevron={<button>{">"}</button>}
-                  outsideChevron
-                  chevronWidth={chevronWidth}
-                >
+              
+            <CardColumns>
                   {this.props.data.projects.map((exp) => (
-                    <div key={exp.name}>
+                    
                       <Project
+                      key={exp.name}
                         name={exp.name}
                         date={exp.date}
                         description={exp.description}
@@ -51,10 +40,11 @@ class Projects extends Component {
                         type={exp.type}
                         image={exp.image}
                       ></Project>
-                    </div>
+                      
+                
                   ))}
-                </ItemsCarousel>
-              </div>
+                  </CardColumns>
+                  
             </Card.Body>
           </Card>
         </div>

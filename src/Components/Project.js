@@ -2,7 +2,6 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 function checkAlert(link) {
-  console.log(link);
   if (link === undefined) {
     return alert("School Project - Contact for more details!");
   }
