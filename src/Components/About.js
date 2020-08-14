@@ -83,12 +83,12 @@ class About extends React.Component {
                 
                 <b>Favorite Sports</b>
                 <br></br>
-                  Football, Soccer, Ultimate Frisbee
+                  Basketball, Football, Soccer, Ultimate Frisbee
                   <br></br>
                 
                 <b>Favorite Activites</b>
                 <br></br>
-                   Hiking, Boardgames (Catan, Resistance, etc.)
+                   Hiking, Reading, Boardgames (Catan, Resistance, etc.)
                 </span>
               </div>
             </div>

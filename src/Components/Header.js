@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Jumbotron, Navbar, Nav, Image } from "react-bootstrap";
 
-
 const first_str = "Hey, My name is Shrikar Patel."
 const second_str ="Aspiring Software Engineer."
 const third_str  ="Student at Rutgers University."
