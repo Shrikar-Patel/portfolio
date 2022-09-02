@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.0a34ba22.chunk.css",
+    "main.js": "/portfolio/static/js/main.919b9d9a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.919b9d9a.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
+    "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
+    "static/js/2.02ac2210.chunk.js": "/portfolio/static/js/2.02ac2210.chunk.js",
+    "static/js/2.02ac2210.chunk.js.map": "/portfolio/static/js/2.02ac2210.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.c85311a6b7643919689080ca70b5b6c3.js": "/portfolio/precache-manifest.c85311a6b7643919689080ca70b5b6c3.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
+    "static/css/main.0a34ba22.chunk.css.map": "/portfolio/static/css/main.0a34ba22.chunk.css.map",
+    "static/js/2.02ac2210.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02ac2210.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/portfolio/static/media/binary_background.b0d4bae8.jpg",
+    "static/media/chess.png": "/portfolio/static/media/chess.8a645f63.png",
+    "static/media/hackhers.png": "/portfolio/static/media/hackhers.160c6d2a.png",
+    "static/media/hackhers20.png": "/portfolio/static/media/hackhers20.ff157bfc.png",
+    "static/media/hackru.png": "/portfolio/static/media/hackru.82bb369c.png",
+    "static/media/hackru2019.png": "/portfolio/static/media/hackru2019.7d34e6b2.png",
+    "static/media/memeify-me.jpg": "/portfolio/static/media/memeify-me.051a223c.jpg",
+    "static/media/nba.png": "/portfolio/static/media/nba.e6f14146.png",
+    "static/media/remind.png": "/portfolio/static/media/remind.38752e40.png",
+    "static/media/rutgers.png": "/portfolio/static/media/rutgers.246bfb77.png",
+    "static/media/trakpack.png": "/portfolio/static/media/trakpack.d7242cbd.png",
+    "static/media/venmore.jpg": "/portfolio/static/media/venmore.32705236.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.075c0788.js",
+    "static/css/2.11829350.chunk.css",
+    "static/js/2.02ac2210.chunk.js",
+    "static/css/main.0a34ba22.chunk.css",
+    "static/js/main.919b9d9a.chunk.js"
+  ]
+}
