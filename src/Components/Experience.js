@@ -15,6 +15,7 @@ function GetWork(props) {
           description={exp.description}
           image={exp.image}
           position={exp.position}
+          link={exp?.link}
         ></Work>
       ))}
     </div>

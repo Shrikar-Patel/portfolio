@@ -2,12 +2,15 @@ import React from "react";
 import { Card } from "react-bootstrap";
 
 function Work(props) {
-  const { title, dateRange, description, position } = props;
+  const { title, dateRange, description, position, link } = props;
   return (
     <Card border="dark">
       <Card.Header>
         <div id="work-header">
           <h3 style={{ textAlign: "left" }}>{title}</h3>
+          <div style={{textAlign: "left"}}>
+          <a href={link}> {link}</a>
+          </div>
           <div style={{ textAlign: "left" }}>
             <span>{position}</span>
             <br></br>

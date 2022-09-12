@@ -3,7 +3,7 @@ let resumeData = {
     "role": ["Developer.","Fullstack.","Backend."],
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "aboutme":"SWE @ Courted. Intereseted in learning about Data Engineering and Machine Learning. I am also interested in philosophy as well.",
+    "aboutme":"SWE @ Courted.io. Love to hike and learn about philosophy! Reach out if you would like to connect!",
     "education":"Rutgers University",
     "skills":[
       {
@@ -27,7 +27,7 @@ let resumeData = {
       {
         "id":4,
         "skillname":"JavaScript",
-        "percentage": 60,
+        "percentage": 70,
         "class": "progress-bar bg-warning"
       },
       {
@@ -38,6 +38,13 @@ let resumeData = {
       },
     ],
     "frameworks":[
+
+  {
+    "id":7,
+    "skillname":"Django",
+    "percentage": 85,
+    "class": "progress-bar bg-purple"
+  },
 
   {
     "id":5,
@@ -67,9 +74,15 @@ let resumeData = {
     "databases":[
       {
         "id":1,
-        "skillname":"SQL",
+        "skillname":"MySQL",
         "percentage": 80,
         "class": "progress-bar bg-warning"
+      },
+      {
+        "id":3,
+        "skillname":"PostgreSQL",
+        "percentage": 80,
+        "class": "progress-bar bg-info"
       },
       {
         "id":2,
@@ -78,6 +91,39 @@ let resumeData = {
         "class": "progress-bar bg-success"
       }
     ],
+    "cloud":[
+      {
+        "id":1,
+        "skillname":"Amazon Web Services (AWS)",
+        "percentage": 60,
+        "class": "progress-bar bg-warning"
+      },
+      {
+        "id":2,
+        "skillname":"Google Cloud Platform",
+        "percentage": 30,
+        "class": "progress-bar bg-success"
+      }
+    ],
+    "tools":[
+      {
+        "id":1,
+        "name":"Git",
+      },
+      {
+        "id":1,
+        "name":"Docker",
+      },
+      {
+        "id":1,
+        "name":"REST API",
+      },
+      {
+        "id":1,
+        "name":"Circle CI",
+      },
+    ],
+
     "portfolio":[
       {
         "name":"project1",
@@ -112,9 +158,36 @@ let resumeData = {
     ],
     "work":[
       {
+        "title":'Courted.io',
+        "dateRange":'July 2021 - Present', 
+        "description": [
+          "Launched, tested, and documented full stack features (CRUD) such as Notifications (in-app, push, email) with Python, Django Rest Framework, and React Redux which increased the Daily Active User retention of our app/web app by 15%.",
+          " Integrated multiprocessing in the data ingestion step which decreased the time to process the data by 30%.",
+          "Collaborated on important system design decisions using AWS services to create a performant app/web app.",
+          "Frameworks/Language: Python, Django, React Redux   Database: PostgreSQL  Tools: AWS, Docker,  Version Control: Git"
+        ],
+         "skills": ['python', 'FastAPI', 'React'],
+         "image": 'index.jpg',
+         "position": "Software Engineer",
+         "link": "https://www.courted.io/"
+      },
+      {
+        "title":'Yogi',
+        "dateRange":'September 2020 - May 2021', 
+        "description": [
+          "Built Product List API endpoints to perform CRUD operations and utilized them to receive data on the front end.",
+          "Improved database operation performance by 25% to load and update user data effectively."],
+         "skills": ['python', 'FastAPI', 'React'],
+         "image": 'index.jpg',
+         "position": "Software Engineer Intern",
+         "link": "https://meetyogi.com/"
+      },
+      {
       "title":'Susquehanna International Group (Remote)',
       "dateRange":'June 2020 - August 2020', 
-      "description": [],
+      "description": [" Developed a reporter that parses/processes 10,000+ JSON records daily and sends out email reports with Python.",
+     "Created a chatbot (Symphony) to post failed tests chat room using Python3 and HTML increasing response time by 10%.",
+      "Languages: Python3, Python, HTML, PowerShell Tools: Conda, TeamCity Version Control: Perforce, Swarm"],
        "skills": ['python', 'conda'],
        "position": "Software Engineer Intern"
       },

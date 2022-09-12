@@ -27,8 +27,22 @@ class About extends React.Component {
         >
           <Skills title="Frameworks" data={props.data.data.frameworks}></Skills>
         </Tab>
+
         <Tab className=" border-dark mb-3" eventKey="database" title="Database">
           <Skills title="Databases" data={props.data.data.databases}></Skills>
+        </Tab>
+        <Tab className=" border-dark mb-3" eventKey="cloud" title="Cloud">
+          <Skills title="Cloud" data={props.data.data.cloud}></Skills>
+        </Tab>
+        <Tab className=" border-dark mb-3" eventKey="Tools" title="Tools">
+        <ul 
+        style={
+          {
+            // listStyleType: "none", 
+          textAlign: "left"}}>
+          {props.data.data.tools.map((tool, id) => 
+            <li key={id}>{tool.name}</li>)}
+          </ul>
         </Tab>
       </Tabs>
     );
@@ -87,8 +101,7 @@ class About extends React.Component {
                     <span id="about-me">
                       <b>Favorite Shows</b>
                       <br></br>
-                      Friends, Parks and Rec, The Office, Sherlock, honestly,
-                      too many to name.
+                      Friends, Parks and Rec, The Office, Sherlock, Game of Thrones (except the last season)
                       <br></br>
                       <b>Favorite Sports</b>
                       <br></br>
