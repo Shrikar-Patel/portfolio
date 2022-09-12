@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0a34ba22.chunk.css",
-    "main.js": "/portfolio/static/js/main.919b9d9a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.919b9d9a.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
+    "main.js": "/portfolio/static/js/main.3f60ab62.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3f60ab62.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.11829350.chunk.css": "/portfolio/static/css/2.11829350.chunk.css",
-    "static/js/2.02ac2210.chunk.js": "/portfolio/static/js/2.02ac2210.chunk.js",
-    "static/js/2.02ac2210.chunk.js.map": "/portfolio/static/js/2.02ac2210.chunk.js.map",
+    "static/js/2.5cb533cc.chunk.js": "/portfolio/static/js/2.5cb533cc.chunk.js",
+    "static/js/2.5cb533cc.chunk.js.map": "/portfolio/static/js/2.5cb533cc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.c85311a6b7643919689080ca70b5b6c3.js": "/portfolio/precache-manifest.c85311a6b7643919689080ca70b5b6c3.js",
+    "precache-manifest.d1c6663f17592dacaa24396a7c54dc07.js": "/portfolio/precache-manifest.d1c6663f17592dacaa24396a7c54dc07.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.11829350.chunk.css.map": "/portfolio/static/css/2.11829350.chunk.css.map",
     "static/css/main.0a34ba22.chunk.css.map": "/portfolio/static/css/main.0a34ba22.chunk.css.map",
-    "static/js/2.02ac2210.chunk.js.LICENSE.txt": "/portfolio/static/js/2.02ac2210.chunk.js.LICENSE.txt",
+    "static/js/2.5cb533cc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5cb533cc.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/binary_background.b0d4bae8.jpg",
     "static/media/chess.png": "/portfolio/static/media/chess.8a645f63.png",
     "static/media/hackhers.png": "/portfolio/static/media/hackhers.160c6d2a.png",
@@ -28,10 +28,10 @@
     "static/media/venmore.jpg": "/portfolio/static/media/venmore.32705236.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.075c0788.js",
+    "static/js/runtime-main.209c2d7e.js",
     "static/css/2.11829350.chunk.css",
-    "static/js/2.02ac2210.chunk.js",
+    "static/js/2.5cb533cc.chunk.js",
     "static/css/main.0a34ba22.chunk.css",
-    "static/js/main.919b9d9a.chunk.js"
+    "static/js/main.3f60ab62.chunk.js"
   ]
 }
